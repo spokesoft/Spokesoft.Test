@@ -1,6 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <Version>1.0.1</Version>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -19,8 +20,8 @@
     <Description>Project management tool for the command line</Description>
     <PackageTags>tool cli dotnet agile scrum</PackageTags>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <PackageProjectUrl>https://github.com/spokesoft/test</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/spokesoft/test.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/spokesoft/Spokesoft.Test</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/spokesoft/Spokesoft.Test.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <IncludePackageLicenseFile>true</IncludePackageLicenseFile>
