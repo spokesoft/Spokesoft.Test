@@ -18,11 +18,16 @@
     <Company>Spokesoft</Company>
     <Description>Project management tool for the command line</Description>
     <PackageTags>tool cli dotnet agile scrum</PackageTags>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageProjectUrl>https://github.com/spokesoft/test</PackageProjectUrl>
     <RepositoryUrl>https://github.com/spokesoft/test.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <IncludePackageLicenseFile>true</IncludePackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="LICENSE" Pack="true" PackagePath="" />
+  </ItemGroup>
 
 </Project>
