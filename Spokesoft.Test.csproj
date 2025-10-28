@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -11,21 +11,20 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <PackageIcon>icon.png</PackageIcon>
-    <PackageId>Spokesoft.Test</PackageId>
-    <PackAsTool>true</PackAsTool>
-    <ToolCommandName>spokesoft</ToolCommandName>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Authors>Spokesoft</Authors>
     <Company>Spokesoft</Company>
+    <Authors>Spokesoft</Authors>
     <Description>Project management tool for the command line</Description>
-    <PackageTags>tool cli dotnet agile scrum</PackageTags>
-    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackAsTool>true</PackAsTool>
+    <PackageId>Spokesoft.Test</PackageId>
     <PackageProjectUrl>https://github.com/spokesoft/Spokesoft.Test</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/spokesoft/Spokesoft.Test.git</RepositoryUrl>
-    <RepositoryType>git</RepositoryType>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <IncludePackageLicenseFile>true</IncludePackageLicenseFile>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageTags>tool cli dotnet agile scrum</PackageTags>
+    <ToolCommandName>spokesoft</ToolCommandName>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/spokesoft/Spokesoft.Test.git</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
