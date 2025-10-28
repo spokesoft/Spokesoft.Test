@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -11,6 +11,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
+    <PackageIcon>icon.png</PackageIcon>
     <PackageId>Spokesoft.Test</PackageId>
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>spokesoft</ToolCommandName>
@@ -28,7 +29,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="LICENSE" Pack="true" PackagePath="" />
+    <None Include="LICENSE" Pack="true" PackagePath="/" />
+    <None Include="README.md" Pack="true" PackagePath="/" />
+    <None Include="icon.png" Pack="true" PackagePath="/" />
   </ItemGroup>
 
 </Project>
